@@ -59,3 +59,15 @@ a{text-decoration: none;}
     margin-left: 25px;
     
 }
+
+@media screen and (max-width: 768px) {
+    .divin, .divde, .divtroy {
+        width: 100%; /* Les divs prennent toute la largeur du conteneur */
+        height: auto; /* Ajuster la hauteur automatiquement */
+    }
+
+    .main {
+        flex-direction: column; /* Empiler les divs verticalement */
+        align-items: center; /* Centrer les divs */
+    }
+}
