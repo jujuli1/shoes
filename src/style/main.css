@@ -62,12 +62,20 @@ a{text-decoration: none;}
 
 @media screen and (max-width: 768px) {
     .divin, .divde, .divtroy {
-        width: 100%; /* Les divs prennent toute la largeur du conteneur */
+        width: 90%; /* Les divs prennent presque toute la largeur du conteneur */
         height: auto; /* Ajuster la hauteur automatiquement */
+        margin-bottom: 20px; /* Espacement entre les divs */
     }
 
     .main {
         flex-direction: column; /* Empiler les divs verticalement */
+        gap: 20px; /* Ajuster l'espacement entre les divs */
         align-items: center; /* Centrer les divs */
+        margin-top: 5%; /* Réduire la marge supérieure pour les petits écrans */
+    }
+
+    .shoesun {
+        width: 100%; /* Image s'adapte à la largeur de la div */
+        margin-left: 0; /* Enlever la marge gauche sur petit écran */
     }
 }
